@@ -1,0 +1,5 @@
+# requirements.txt
+Flask
+PyPDF2
+spacy
+Jinja2

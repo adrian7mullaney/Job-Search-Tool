@@ -1,0 +1,33 @@
+/* static/css/style.css */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .modal-content {
+        width: 90%;
+    }
+}
