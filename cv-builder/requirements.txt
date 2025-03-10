@@ -1,8 +1,0 @@
-Flask
-celery
-aiohttp
-aioredis
-redis
-sentry-sdk
-uvloop
-gunicorn
